@@ -1,7 +1,22 @@
+### Project Description — **k8s-observability-lab**
 
-# k8s-observability-lab
+**k8s-observability-lab** is a hands-on Kubernetes project that demonstrates how to implement **modern observability for a Node.js Express API** using industry-standard cloud-native tools.
 
-Demo project showing Kubernetes observability with:
+The project integrates **Prometheus for metrics, Loki for logs, OpenTelemetry for tracing, and Grafana for visualization**, providing full insight into application behavior inside a Kubernetes cluster. It also includes **Horizontal Pod Autoscaling (HPA)** to automatically scale the API under load and **Alertmanager with Slack notifications** to simulate real production alerting.
+
+The goal of this lab is to showcase **end-to-end observability in Kubernetes**, from instrumentation to monitoring, logging, tracing, autoscaling, and alerting.
+
+✅ **Key highlights**
+
+* Express API instrumented with **OpenTelemetry**
+* **Prometheus** metrics collection (`/metrics`)
+* **Loki** centralized log aggregation
+* **Grafana** dashboards for metrics and logs
+* **Horizontal Pod Autoscaler** for dynamic scaling
+* **Alertmanager → Slack alerts**
+* Realistic **DevOps / SRE observability stack**
+
+**Stack**
 
 - Express API
 - Prometheus (metrics)
